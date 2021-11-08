@@ -1,0 +1,377 @@
+body {
+    margin: 0;
+}
+
+main {
+    width: 980px;
+    margin: auto;
+    align-items: center;
+}
+
+.header {
+    height: fit-content;
+    width: 980px;
+    margin: auto;
+    align-items: center;
+}
+
+section + section.header {
+    display: flex;
+    margin-top: 2%;
+    background-color: #1f1f1f;
+    height: 82px;
+}
+
+p {
+    font-family: Din;
+}
+
+.nav {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-self: flex-start;
+}
+
+#contato {
+    margin-left: 50%;
+    align-self: flex-start;
+    width: fit-content;
+    height: fit-content;
+    margin-block-end: 0;
+    margin-block-start: 0.8em;
+    font-size: 1.1em;
+    color: rgb(230, 230, 230);
+}
+
+a {
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 3%;
+    align-self: flex-start;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.cont {
+    display: none;
+    z-index: 1;
+}
+
+a:hover{
+    color: rgb(165, 165, 165);
+    transition: 0.5s;
+}
+
+.a:hover .cont{
+    display: block;
+}
+
+.logo {
+    margin-left: 5%;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-left: 2%;
+    height: fit-content;
+}
+
+h1, h3 {
+    font-family: Din;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: normal;
+}
+h3 {
+    color: rgba(0, 0, 0, 0.575);
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+span {
+    color: #f0ae00;
+}
+
+.shopcar {
+    display: flex;
+    width: 57%;
+    height: 60px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#categoria {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 980px;
+    text-align: center;
+}
+
+#categoria h3 {
+    margin-top: 5%;
+    font-size: 2em;
+    color: #1f1f1f;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;          
+}
+
+.box {
+    display: block;
+    width: 224px;
+    height: 284px;
+}
+
+#banner {
+    display: flex;
+}
+
+#ex {
+    position: relative;
+    margin-top: 4%;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+img{
+    width: 224px;
+    height: 224px;
+}
+
+.box p {
+    color: rgba(0, 0, 0, 0.575);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.anuncio {
+    padding: 10px;
+    margin-left: -96%;
+    margin-top: 11%;
+    width: 361px;
+    height: 331px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+
+#anuncio {
+    font-family: Din;
+    font-size: 5.4em;
+    line-height: 0.95em;
+    margin: 0;
+    color: #1f1f1f;
+}
+
+.subanuncio{
+    margin: 0;
+    width: 299px;
+    height: 80px;
+}
+
+#subanuncio{
+    margin: 0;
+    font-size: 2.25em;
+    color: #1f1f1f;
+}
+
+#compre {
+    display: flex;
+    width: 176px;
+    height: 43px;
+    background-color: #f0ae00;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: Din;
+    font-size: 1.15em;
+    margin-top: 57.5%;
+    margin-left: -39%;
+}
+
+a#compre:hover {
+    background-color: white;
+    color: black;
+}
+
+.imgex {
+    width: 421px;
+    height: 180px;
+    float: left;
+}
+
+.imgex img{
+    width: 421px;
+    height: 180px;
+}
+
+#imgex {
+    position: relative;
+    margin-top: -45%;
+    margin-left: 3%;
+    color: white;
+    font-size: 2.4em;
+    text-align: center;
+}
+
+#imgex span {
+    color: white;
+    font-size: 0.9em;
+}
+
+.imgex2 {
+    width: 541px;
+    height: 180px;
+    float: left;
+}
+
+.imgex2 img{
+    width: 541px;
+    height: 180px;
+}
+
+#imgex2 {
+    display: flex;
+    width: 503px;
+    height: 155px;
+    position: relative;
+    margin-top: -31%;
+    margin-left: 3%;
+    color: #1f1f1f;
+    font-size: 1.5em;
+    text-align: start;
+    border: 2px solid white;
+}
+
+#imgex2 img{
+    width: 208px;
+    height: 211px;
+    margin-top: -11%;
+    margin-left: 4%;
+}
+
+#imgex2 span{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: white;
+}
+
+#frete {
+    margin-top: 7%;
+    background-color: #1f1f1f;
+    text-align: center;
+}
+
+#frete p {
+    color: white;
+    line-height: 2.1em;
+    font-size: 1.4em;
+}
+
+#linha {
+    background-color: #f0ae00;
+    height: 2px;
+    margin: auto;
+    margin-top: 2%;
+    width: 95%;
+
+}
+
+#logo {
+    margin: 0;
+    width: 100px;
+    height: 75px;
+}
+
+footer {
+    width: 980px;
+    height: 284px;
+    margin: auto;
+    margin-top: 4%;
+    background-color: #1f1f1f;
+}
+
+#infContato {
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 38%;
+}
+
+#infAtendimento {
+    margin-top: 2%;
+    width: 30%;
+}
+
+#infAtendimento span {
+    color: #f0ae00;
+}
+
+#infAceitamos {
+    margin-top: 2%;
+    width: 20%;
+    text-align: right;
+}
+
+#infContato p, #infAtendimento p, #infAceitamos p {
+    color: rgb(230, 230, 230);
+    font-size: 0.9em;
+}
+
+#icon {
+    width: 32px;
+    height: 32px;
+}
+
+#infAceitamos #icon {
+    width: 40px;
+    height: 26px;
+}
+
+footer .wrap{
+    justify-content: unset;
+    align-items: flex-start;
+    margin: 0;
+    display: flex;
+
+}
+#infContato #title, #infAtendimento, #infAceitamos #title {
+    font-size: 1.2em;
+}
+
+#credits {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+
+#credits p {
+    color: #f0ae00;
+    font-size: 0.9em;
+}
+
+#credits span {
+    color: rgb(230, 230, 230);
+}
+
+@font-face {
+    font-family: Din;
+    src: url(fonts/DINNextW01Regular.otf);
+}
+
+@font-face {
+    font-family: Din-bold;
+    src: url(fonts/d-din-bold-webfont.woff);
+}
